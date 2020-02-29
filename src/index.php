@@ -45,7 +45,7 @@ if($headers != null && is_array($headers) and count($headers) > 0) {
 						$clauses=["appID"=>$app["id"]];
 						// $scores=$db->selects("score", $clauses, "ORDER BY `value` DESC");// Need `LIMIT 500`
 						$scores=$db->selectsRaw("select value from `".$db->db."`.`score` ORDER BY `value` DESC");// Need `LIMIT 500`
-						$count=count($count);
+						$count=count($scores);
 						if($count == 0) {
 							$hightest=null;
 							$lowest=null;
