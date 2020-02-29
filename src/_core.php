@@ -165,7 +165,18 @@ function display($array, $app=null) {
 		exit(json_encode($array));
 	}
 	else {
-		header("Content-Type: text/html");
-		exit(encode($array, $app["privateKey"]));
+		header("Content-Type: application/json");
+		exit(json_encode($array));
+		// header("Content-Type: text/html");
+		// exit(encode($array, $app["privateKey"]));
 	}
+}
+
+function string($input, $length = 5) {
+	$lengths = strlen($input);
+	$output = "";
+	for($i = 0; $i < $length; $i++) {
+		$output .= $input[mt_rand(0, $lengths - 1)];
+	}
+	return $output;
 }
