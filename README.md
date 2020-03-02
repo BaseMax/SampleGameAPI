@@ -1,6 +1,6 @@
 # Matno Contest - Back-End Programming
 
-# Sample Google Game API
+# Sample Game API
 
 A tiny implement such as google play game web service using PHP.
 
@@ -62,7 +62,7 @@ again refresh:
 
 ## createUser
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=registerUser
+http://localhost/matno4/SampleGameAPI/src/?method=registerUser
 
 ```json
 {
@@ -71,7 +71,7 @@ http://localhost/matno4/SampleGoogleGameAPI/src/?method=registerUser
 }
 ```
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=registerUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=maxmaxmax456@asrez.com
+http://localhost/matno4/SampleGameAPI/src/?method=registerUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=maxmaxmax456@asrez.com
 
 ```json
 {
@@ -95,7 +95,7 @@ Again reload:
 
 ### loginUser
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=loginUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.comxxxxxxx
+http://localhost/matno4/SampleGameAPI/src/?method=loginUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.comxxxxxxx
 
 ```json
 {
@@ -104,7 +104,7 @@ http://localhost/matno4/SampleGoogleGameAPI/src/?method=loginUser&packageName=or
 }
 ```
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=loginUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com
+http://localhost/matno4/SampleGameAPI/src/?method=loginUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com
 
 ```json
 {
@@ -118,7 +118,7 @@ http://localhost/matno4/SampleGoogleGameAPI/src/?method=loginUser&packageName=or
 
 ### authUser
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=authUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com&code=4561
+http://localhost/matno4/SampleGameAPI/src/?method=authUser&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com&code=4561
 
 ```json
 {
@@ -141,7 +141,7 @@ and reload:
 
 ### submitScore
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=submitScore&packageName=org.max.blog&value=500
+http://localhost/matno4/SampleGameAPI/src/?method=submitScore&packageName=org.max.blog&value=500
 
 ```json
 {
@@ -151,7 +151,7 @@ http://localhost/matno4/SampleGoogleGameAPI/src/?method=submitScore&packageName=
 ```
 
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=submitScore&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com&session=vb9jbwuuwh1qyr07yp6kd8dwjkf2xz18d29vx8b0p20q4kvu1v&value=500
+http://localhost/matno4/SampleGameAPI/src/?method=submitScore&packageName=org.max.blog&version=1.0.0&device=samsung-SL10&email=max@asrez.com&session=vb9jbwuuwh1qyr07yp6kd8dwjkf2xz18d29vx8b0p20q4kvu1v&value=500
 
 ```json
 {
@@ -163,7 +163,7 @@ http://localhost/matno4/SampleGoogleGameAPI/src/?method=submitScore&packageName=
 
 ### highScore
 
-http://localhost/matno4/SampleGoogleGameAPI/src/?method=highScore&packageName=org.max.blog
+http://localhost/matno4/SampleGameAPI/src/?method=highScore&packageName=org.max.blog
 
 ```json
 {
