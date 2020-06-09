@@ -1,5 +1,3 @@
-# Matno Contest - Back-End Programming
-
 # Sample Game API
 
 A tiny implement such as google play game web service using PHP.
